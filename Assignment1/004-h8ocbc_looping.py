@@ -8,7 +8,7 @@ numbers = [
 # print(a)
 
 
-# for
+
 print("FOR")
 for number in numbers:
     if number%2==0:
@@ -18,15 +18,3 @@ for number in numbers:
       break
     else:
       continue
-# While
-print("======================================================")
-print("WHILE")
-i=0
-while i < len(numbers):
-  if numbers[i]%2==0:
-    print(numbers[i], end=' ')
-  elif numbers[i] == 237:
-    print("Done")
-    break
-
-  i += 1
