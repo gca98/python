@@ -115,6 +115,18 @@ print(MLB_team['Minnesota'])
 MLB_team['Kansas City'] = 'Royals'
 print(MLB_team)
 
+del MLB_team['Minnesota']
+print(MLB_team)
+
+print ("MLB_team['Colorado']: ", MLB_team['Colorado'])
+
+print(MLB_team.items())
+print(MLB_team.keys())
+print(MLB_team.values())
+
+
+
+
 print()
 
 person = {}
@@ -127,5 +139,7 @@ person['pets'] = {'dog': 'Fido', 'cat': 'Sox'}
 print(person)
 print(person['children'][1])
 print(person['pets'])
+
+
 
 
