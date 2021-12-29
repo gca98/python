@@ -116,7 +116,7 @@ ns.view = (function() {
             // did we get a people array?
             if (people) {
                 for (let i=0, l=people.length; i < l; i++) {
-                    rows += `<tr><td class="fname">${people[i].fname}</td><td class="lname">${people[i].lname}</td><td>${people[i].timestamp}</td></tr>`;
+                    rows += `<tr><td class="person_id">${people[i].person_id}</td><td class="fname">${people[i].fname}</td><td class="lname">${people[i].lname}</td><td>${people[i].timestamp}</td></tr>`;
                 }
                 $('table > tbody').append(rows);
             }
